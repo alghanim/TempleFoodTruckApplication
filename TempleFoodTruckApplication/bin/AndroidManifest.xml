@@ -9,10 +9,10 @@
         android:targetSdkVersion="19" />
 
     <permission
-        android:name="com.example.templefoodtruck.permission.MAPS_RECEIVE"
+        android:name="com.example.templefoodtruckapplication.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.templefoodtruck.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.example.templefoodtruckapplication.permission.MAPS_RECEIVE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -33,7 +33,7 @@
             android:value="@integer/google_play_services_version" />
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyAnloo-29ca2rdOeGNgeve95DB5s8_wDpA" />
+            android:value="AIzaSyA8_L_lKzMgiqxefxvECg-mwkHlklT3YfI" />
 
         <activity
             android:name=".MainActivity"
