@@ -75,6 +75,7 @@ public class MainActivity extends FragmentActivity implements LocationListener{
 			locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
 			locationProvider = LocationManager.GPS_PROVIDER;
 			userLocation = locationManager.getLastKnownLocation(locationProvider);
+			
 
 			googleMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
 			double latitude = userLocation.getLatitude();
